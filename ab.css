@@ -1,0 +1,67 @@
+
+body{
+    background: url("Dark Blue White Illustrated Northern Light Desktop Wallpaper.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color:Black;
+    width: 1000px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    display: inline;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+pre{
+    margin-top: 250px;
+    color:black;
+    font-weight: bolder;
+    float: left;
+    margin-left: 40px;
+    font-size:20px;
+    text-align: left;
+    background-color:rgb(142, 110, 255) ;
+    border-radius: 100px;
+    display: inline;
+    opacity: 0.8;
+    text-align: center;
+    line-height: 27px;    
+}
+button{
+    margin-top: 430px;
+    border-radius: 50px;
+    margin-left:25px; 
+    border-radius: 50px;
+    border-width: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:whitesmoke;
+    background-color: black;
+    font-weight: bolder;
+}
+.h{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgb(133, 133, 220);
+    word-spacing: 10px;  
+    opacity: 0.8;
+    text-align: justify;
+    font-size: large;
+
+}
+.h a{
+    font-size: 18px;
+    color:Black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 5px;
+}
+div
+{
+    text-align: right;
+    margin-right:250px;
+}
