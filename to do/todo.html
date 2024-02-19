@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body> 
+    <div id="j">
+    <center>
+    <input type="text" id="e">
+    <button onclick="add()">Add</button><br>
+    <ul id="r">
+        <li> Hello
+            <button onclick="del(event)">X</button>
+        </li>
+    </ul>
+</center>
+</div>
+</body>
+<script>
+    var e=document.getElementById("e");
+    var d=document.getElementById("r");
+    function add(){
+        var l=document.createElement("li");
+        l.innerHTML=e.value+" <button onclick='del(event)'>X</button>";
+        d.append(l);
+    }
+    li.addEventListener("click",function(e)
+    {
+     if(e.target.tagName==="LI"){
+     e.target.classList.toggle("checked")
+    }})
+    function del(event)
+    {
+      event.target.parentElement.remove()
+    }
+</script>
+</html>

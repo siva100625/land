@@ -1,0 +1,38 @@
+body{
+    background: url("i.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#j{
+    background-image: linear-gradient( rgb(187, 171, 244), rgb(203, 234, 157));
+    margin-top: 300px;
+    display: inline-block;
+    margin-left: 500px;
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+}
+input{
+    margin-top:50px ;
+    border-radius: 70px;
+    height:25px;
+    width: 300px;
+    background-color: whitesmoke;
+    display: inline-block;
+}
+ul{
+    background-color:whitesmoke;
+    display: inline-block;
+    border-radius: 25px;
+
+}
+li{
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+button{
+    border-radius:50px;
+    width:50px;
+    
+}
+
